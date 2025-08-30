@@ -2,7 +2,7 @@
 ################################################################################
 # network-clock-sync.sh
 #
-# Sets the system clock from an HTTP server on the local network. 
+# Sets the system clock from a HTTP server on the local network. 
 # 
 # Copyright (C) 2025 Richard Elwell
 #

@@ -32,6 +32,10 @@ sudo rm -f /usr/local/bin/network-clock-sync.sh
 echo "Removing systemd service..."
 sudo rm -f /etc/systemd/system/network-clock-sync.service
 
+echo "Removing service-generated files..."
+sudo rm -f /var/lib/network-clock-sync/host_ip
+sudo rm -f /var/log/network-clock-sync.log
+
 echo "Reloading systemd daemon..."
 sudo systemctl daemon-reload
 
