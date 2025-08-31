@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
-##################################################################################
+################################################################################
 [Unit]
 Description=Set system clock from local network HTTP server
 After=network-online.target fake-hwclock.service
